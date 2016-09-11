@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Стартовый проект для верстки.",
   "author": "Dmitry Kabanov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DimaKabanov/Sass-Gulp-start-project"
+  },
   "devDependencies": {
     "browser-sync": "^2.15.0",
     "css-mqpacker": "^5.0.1",

@@ -1,0 +1,11 @@
+{
+  "name": "start-project",
+  "version": "1.0.0",
+  "description": "Стартовый проект для верстки.",
+  "author": "Dmitry Kabanov",
+
+  "devDependencies": {
+    "browser-sync": "^2.15.0",
+    "gulp-sass": "^2.3.2"
+  }
+}

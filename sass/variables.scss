@@ -25,6 +25,10 @@ $border-color:                $gray-light;
 
 // Ширины
 
+$mobile-width: "(max-width: 767px)";
+$tablet-width: "(min-width: 768px)";
+$desktop-width: "(min-width: 1220px)";
+
 $screen-xs:                   0;
 $screen-sm:                   480px;
 $screen-md:                   768px;

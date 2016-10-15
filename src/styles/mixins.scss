@@ -7,14 +7,14 @@
 }
 
 @mixin container() {
-  width: 320px;
+  width: 370px;
   margin: 0 auto;
 
-  @media @tablet-widths {
+  @media #{tablet-width} {
     width: 640px;
   }
 
-  @media @desktop-widths {
+  @media #{desktop-widths} {
     width: 960px;
   }
 }

@@ -7,7 +7,7 @@
 }
 
 @mixin container() {
-  width: 370px;
+  width: 320px;
   margin: 0 auto;
 
   @media #{tablet-width} {

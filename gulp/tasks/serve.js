@@ -5,8 +5,9 @@ import paths        from '../paths';
 
 gulp.task('serve', () => {
   browserSync.init({
-    server: '../build'
+    reloadOnRestart: true,
+    server: './build'
   });
 
-  browserSync.watch(`../build/**/*.*`).on('change', browserSync.reload);
+  browserSync.watch(`./build/**/*.*`).on('change', browserSync.reload);
 });

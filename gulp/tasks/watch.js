@@ -5,5 +5,4 @@ gulp.task('watch', () => {
   gulp.watch(paths.styles.all, gulp.series('styles'));
   gulp.watch(paths.assets.src, gulp.series('assets'));
   gulp.watch(paths.scripts.all, gulp.series('scriptsCompile'));
-  //gulp.watch(paths.assets.styles, gulp.series('styles:assets'));
 });

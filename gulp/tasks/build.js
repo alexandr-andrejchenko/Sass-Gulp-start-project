@@ -3,7 +3,7 @@ import clean           from './clean';
 import styles          from './styles';
 import assets          from './assets';
 import scriptsCompile  from './scripts';
-import imagemin  from './img';
+import imagemin        from './img';
 
 gulp.task('build', gulp.series(
   'clean',
